@@ -1,1 +1,20 @@
+/*
+==============================================================================================
+Creation of Database and Schemas
+==============================================================================================
+Purpose of Script:
+  In this script, I created database called "DataWarehouse" and check for prior existence. Existinbg database with the same name is dropped and recreated. 
+  In addition, the script sets up three schemas within the database: "bronze", "Silver", and "Gold". 
+*/
 
+USE master;
+GO
+CREATE DATABASE DataWarehouse;
+USE DataWarehouse;
+
+CREATE SCHEMA bronze;
+GO
+CREATE SCHEMA silver;
+GO
+CREATE SCHEMA gold;
+GO
