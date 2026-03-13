@@ -1,1 +1,36 @@
+===========================================================================
+LOADING BRONZE LAYER
+===========================================================================
+---------------------------------------------------------------------------
+Loading CRM Tables
+---------------------------------------------------------------------------
+>>> Truncating Table: bronze.crm_cust_info <<<
+>>> Inserting Data into Table: bronze.crm_cust_info <<<
+
+(18493 rows affected)
+>>> Truncating Table: bronze.crm_prd_info <<<
+>>> Inserting Data into Table: bronze.crm_prd_info <<<
+
+(397 rows affected)
+>>> Truncating Table: bronze.crm_sales_details <<<
+>>> Inserting Data into Table: bronze.crm_sales_details <<<
+
+(60398 rows affected)
+---------------------------------------------------------------------------
+Loading ERP Tables
+---------------------------------------------------------------------------
+>>> Truncating Table: bronze.erp_cust_az12 <<<
+>>> Inserting Data into Table: bronze.erp_cust_az12 <<<
+
+(18483 rows affected)
+>>> Truncating Table: bronze.erp_loc_a101 <<<
+>>> Inserting Data into Table: bronze.erp_loc_a101 <<<
+
+(18484 rows affected)
+>>> Truncating Table: bronze.erp_px_cat_g1v2 <<<
+>>> Inserting Data into Table: bronze.erp_px_cat_g1v2 <<<
+
+(37 rows affected)
+
+Completion time: 2026-03-13T14:59:13.5957217+00:00
 
